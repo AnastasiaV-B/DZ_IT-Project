@@ -13,10 +13,8 @@
 // 4. Повторяем пункты 2 и 3 до тех пор, пока не достигнем конца исходного массива;
 // 5. Возвращаем новый заполненый массив как результат.
 
-
 using System;
 using static System.Console;
-Clear();
 string[] array = AskArray();
 string[] result = FindLessThan(array, 3);
 WriteLine($"[{string.Join(", ", array)}] -> [{string.Join(", ", result)}]");
